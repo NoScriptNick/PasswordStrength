@@ -16,6 +16,11 @@ public class Main {
         boolean done = true;
 
         do {
+            testOne = false;
+            testTwo = false;
+            testThree = false;
+            testFour = false;
+            testFive = false;
             strengthFinal = 0;
             System.out.println("Please enter your password");
             pass = scan.nextLine();
